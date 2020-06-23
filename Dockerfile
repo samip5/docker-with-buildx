@@ -1,6 +1,6 @@
 FROM alpine AS fetcher
 
-RUN apk add curl
+RUN apk add curl make
 
 ARG BUILDX_VERSION=0.4.1
 RUN curl -L \
